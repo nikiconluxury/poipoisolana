@@ -589,6 +589,12 @@
     width: 200px;
 }
 
+.socials-2 {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
 .socials {
     z-index: 50;
     justify-content: flex-end;
