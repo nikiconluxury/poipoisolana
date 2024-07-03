@@ -236,7 +236,9 @@ h6 {
     font-weight: bold;
     margin-bottom: 10px;
 }
-
+.buy-block{
+    padding-bottom: 25px;
+}
 h1 {
     font-size: 38px;
     line-height: 44px;
@@ -246,7 +248,7 @@ h1 {
 h2 {
     font-size: 32px;
     line-height: 36px;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 h3 {
