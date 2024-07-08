@@ -336,7 +336,7 @@
 }
 
 .screen {
-    width: 650px;
+    width: 100%;
     position: relative;
 }
 
@@ -778,10 +778,7 @@
 }
 
 @media screen and (max-width: 991px) {
-    .skull_left,
-    .skull_right {
-        height: 30%;
-    }
+
     .dino_king,
     .block_para {
         margin-left: 20px;
@@ -803,10 +800,10 @@
         line-height: 15px;
     }
     .screen {
-        width: 550px;
+        width: 100%;
     }
     .block_faq {
-        width: 450px;
+        width: 100%;
     }
     .rex_side {
         height: 180px;
@@ -822,7 +819,7 @@
     .raydiu,
     .dex,
     .dextools {
-        width: 125px;
+        width: 100%;
     }
     .rex_fire {
         margin-bottom: -64px;
@@ -887,13 +884,13 @@
         line-height: 25px;
     }
     .screen {
-        width: 400px;
+        width: 100%;
     }
     .rex_side {
         display: none;
     }
     .image {
-        width: 400px;
+        width: 100%;
     }
     .section_buy {
         padding-bottom: 0;
@@ -904,7 +901,7 @@
         padding-right: 15px;
     }
     .buy_text {
-        width: 350px;
+        width: 100%;
     }
     .text-block-2 {
         font-size: 15px;
@@ -929,7 +926,7 @@
         display: none;
     }
     .partners_mobile {
-        width: 300px;
+        width: 100%;
         height: 400px;
         background-color: #fcfae2;
         border: 3px solid #000;
@@ -964,7 +961,7 @@
         width: 100%;
     }
     .rex_fire {
-        width: 300px;
+        width: 100%;
         margin-bottom: -47px;
     }
     .rex_title2 {
@@ -1048,13 +1045,13 @@
         width: 80%;
     }
     .buy_text {
-        width: 250px;
+        width: 100%;
     }
     .text-block-2 {
         line-height: 20px;
     }
     .rex_fire {
-        width: 250px;
+        width: 100;
         margin-bottom: -29px;
     }
     .rex_title2 {

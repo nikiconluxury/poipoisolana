@@ -193,39 +193,7 @@ pre.w-code-block code {
     word-wrap: normal;
 }
 
-.w-webflow-badge {
-    position: fixed !important;
-    display: inline-block !important;
-    visibility: visible !important;
-    z-index: 2147483647 !important;
-    top: auto !important;
-    right: 12px !important;
-    bottom: 12px !important;
-    left: auto !important;
-    color: #aaadb0 !important;
-    background-color: #fff !important;
-    border-radius: 3px !important;
-    padding: 6px !important;
-    font-size: 12px !important;
-    opacity: 1 !important;
-    line-height: 14px !important;
-    text-decoration: none !important;
-    transform: none !important;
-    margin: 0 !important;
-    width: auto !important;
-    height: auto !important;
-    overflow: visible !important;
-    white-space: nowrap;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-}
 
-.w-webflow-badge>img {
-    display: inline-block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    vertical-align: middle !important;
-}
 
 h1,
 h2,
@@ -597,7 +565,7 @@ textarea.w-select {
 .w-container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 940px;
+    max-width: 100%;
 }
 
 .w-container:before,
@@ -706,7 +674,7 @@ textarea.w-select {
 
 @media screen and (max-width: 991px) {
     .w-container {
-        max-width: 728px;
+        max-width: 100%;
     }
     .w-hidden-main {
         display: inherit !important;
@@ -1980,27 +1948,6 @@ textarea.w-select {
         display: none;
     }
     .w-nav[data-collapse="medium"] .w-nav-button {
-        display: block;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .w-nav[data-collapse="small"] .w-nav-menu {
-        display: none;
-    }
-    .w-nav[data-collapse="small"] .w-nav-button {
-        display: block;
-    }
-    .w-nav-brand {
-        padding-left: 10px;
-    }
-}
-
-@media screen and (max-width: 479px) {
-    .w-nav[data-collapse="tiny"] .w-nav-menu {
-        display: none;
-    }
-    .w-nav[data-collapse="tiny"] .w-nav-button {
         display: block;
     }
 }
